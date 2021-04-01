@@ -4,9 +4,9 @@
 
 using namespace std;
 
-float average(float i1, float i2, float i3)
+float average(float f1, float f2, float f3)
 {
-	return (i1 + i2 + i3) / 3.0f; // added parentheses to calculate correctly
+	return (f1 + f2 + f3) / 3.0f; // added parentheses to calculate correctly
 }
 
 int main()
