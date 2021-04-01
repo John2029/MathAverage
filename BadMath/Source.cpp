@@ -4,14 +4,12 @@
 
 using namespace std;
 
-float average(float f1, float f2, float f3)
-{
-	return (f1 + f2 + f3) / 3.0f; // added parentheses to calculate correctly
-}
+float average(float, float, float);
+
 
 int main()
 {
-	float n1 = 0 , n2 = 0, n3 = 0; // made into a float instead because we don't need to use whole numbers
+	float n1 = 0 , n2 = 0, n3 = 0; // made into a float instead because we dont have to use whole numbers
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "First number: "; cin >> n1;
 	cout << "Second number: "; cin >> n2;
@@ -22,4 +20,9 @@ int main()
 	cout << setprecision(2) << fixed << "The average is " << a << endl; // setprecision(2) for 2 decimal places
 
 	endFile();
+}
+
+float average(float f1, float f2, float f3)
+{
+	return (f1 + f2 + f3) / 3.0f; // added parentheses to calculate correctly
 }
