@@ -9,7 +9,7 @@ float average(float, float, float);
 
 int main()
 {
-	float n1 = 0 , n2 = 0, n3 = 0; // made into a float instead because we dont have to use whole numbers
+	float n1 = 0 , n2 = 0, n3 = 0; // made into a float in case we dont want to use whole numbers
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "First number: "; cin >> n1;
 	cout << "Second number: "; cin >> n2;
